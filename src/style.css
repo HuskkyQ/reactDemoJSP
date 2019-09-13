@@ -1,0 +1,25 @@
+.inputborder{
+    border: 3px solid lightblue;
+}
+
+.specialText-enter{
+    opacity: 0;
+}
+.specialText-enter-active{
+    opacity: 1;
+    transition: opacity 2000ms;
+}
+.specialText-enter-done{
+    opacity: 1;
+}
+
+.specialText-exit{
+    opacity: 1;
+}
+.specialText-exit-active{
+    opacity: 0;
+    transition: opacity 2000ms;
+}
+.specialText-exit-done{
+    opacity: 0;
+}
